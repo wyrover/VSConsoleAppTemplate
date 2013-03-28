@@ -1,5 +1,5 @@
 //
-// Project: App
+// Project: VSConsoleAppTemplate
 // Date:    YYYY-MM-DD
 // Author:  Name <login[]example.com>
 //
