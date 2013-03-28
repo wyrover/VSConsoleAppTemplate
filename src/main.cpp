@@ -1,3 +1,9 @@
+//
+// Project: App
+// Date:    YYYY-MM-DD
+// Author:  Name <login[]example.com>
+//
+
 #if defined(_WIN32) && defined(_DEBUG)
 #define _CRTDBG_MAPALLOC
 #include <stdlib.h>
@@ -6,7 +12,7 @@
 
 #include <windows.h>
 
-const char HELP[] =
+const char USAGE[] =
 {
     "App v1.0\n"
     "About.\n"
