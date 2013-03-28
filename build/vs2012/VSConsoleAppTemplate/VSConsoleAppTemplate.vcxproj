@@ -13,6 +13,9 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\src\main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\defs.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{77D7647B-E1C0-4656-8A1E-D9902AB6DD92}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>

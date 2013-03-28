@@ -12,6 +12,8 @@
 
 #include <windows.h>
 
+#include "defs.h"
+
 const char USAGE[] =
 {
     "App v1.0\n"
@@ -19,7 +21,7 @@ const char USAGE[] =
     "Usage: app\n"
 };
 
-int wmain(int argc, wchar_t *argv[])
+int _tmain(int argc, tchar *argv[])
 {
 
     // Code
