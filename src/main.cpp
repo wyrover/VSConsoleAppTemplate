@@ -16,9 +16,9 @@
 
 const char USAGE[] =
 {
-    "App v1.0\n"
+    "VSConsoleAppTemplate v1.0\n"
     "About.\n"
-    "Usage: app\n"
+    "Usage: VSConsoleAppTemplate\n"
 };
 
 int _tmain(int argc, tchar *argv[])
