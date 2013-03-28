@@ -1,5 +1,4 @@
-APP
-===
+# VSConsoleAppTemplate TODO
 
 ...
 

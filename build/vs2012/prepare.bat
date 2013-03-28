@@ -11,6 +11,9 @@ set TEMPLATE=VSConsoleAppTemplate
 
 rem Substitute strings in files
 fart.exe -r %TEMPLATE%.* %TEMPLATE% %NAME%
+rem Dont work with utf-8 :( TODO Use other utility
+fart.exe ..\..\*.md %TEMPLATE% %NAME%
+fart.exe -r ..\..\deploy\win\deploy.bat %TEMPLATE% %NAME%
 
 rem Rename files
 fart.exe -r -f %TEMPLATE%.* %TEMPLATE% %NAME%
