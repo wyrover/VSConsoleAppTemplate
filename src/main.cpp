@@ -6,6 +6,13 @@
 
 #include <windows.h>
 
+const char HELP[] =
+{
+    "App v1.0\n"
+    "About.\n"
+    "Usage: app\n"
+};
+
 int wmain(int argc, wchar_t *argv[])
 {
 
