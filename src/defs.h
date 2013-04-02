@@ -4,11 +4,15 @@
 // Author:  Name <login[]example.com>
 //
 
+
 #pragma once
 
-#define VERSION "0.1"
 
-#define MAIN_ABORT(msg) { std::cerr << msg << std::endl; return 1; }
+#define VERSION "0.1.0a"
+
+#define MAIN_ABORT(msg) { std::cerr << "Error: " << msg << "." << std::endl; return EXIT_FAILURE; }
+#define PRINT_ERROR(msg) std::cerr << "Error: " << msg << "." << std::endl;
+#define ARRAY_SIZE(arr) (sizeof(arr) / sizeof(arr[0]))
 
 #ifdef _UNICODE
     #define tstring std::wstring
@@ -24,6 +28,10 @@
     #ifndef _tmain
     #define _tmain wmain
     #endif
+    
+    #ifndef _tcscmp
+    #define _tcscmp wcscmp
+    #endif
 #else
     #define tstring std::string
 
@@ -37,5 +45,9 @@
 
     #ifndef _tmain
     #define _tmain main
+    #endif
+    
+    #ifndef _tcscmp
+    #define _tcscmp strcmp
     #endif
 #endif

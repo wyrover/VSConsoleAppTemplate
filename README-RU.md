@@ -1,4 +1,4 @@
-# VSConsoleAppTemplate TODO
+# VSConsoleAppTemplate
 
 ...
 
