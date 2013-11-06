@@ -1,7 +1,7 @@
 //
-// Project: VSConsoleAppTemplate
-// Date:    YYYY-MM-DD
-// Author:  Name <login[]example.com>
+//  Project: REPLACE_APP_NAME
+//  Date:    YYYY-MM-DD
+//  Author:  REPLACE_AUTHOR <REPLACE_EMAIL>
 //
 
 

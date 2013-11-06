@@ -19,7 +19,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{77D7647B-E1C0-4656-8A1E-D9902AB6DD92}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>VSConsoleAppTemplate</RootNamespace>
+    <RootNamespace>REPLACE_APP_NAME</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

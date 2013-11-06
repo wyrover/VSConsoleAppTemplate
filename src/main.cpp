@@ -1,7 +1,7 @@
 //
-// Project: VSConsoleAppTemplate
-// Date:    YYYY-MM-DD
-// Author:  Name <login[]example.com>
+//  Project: REPLACE_APP_NAME
+//  Date:    YYYY-MM-DD
+//  Author:  REPLACE_AUTHOR <REPLACE_EMAIL>
 //
 
 
@@ -18,9 +18,9 @@
 
 const char USAGE[] =
 {
-    "VSConsoleAppTemplate v"VERSION"\n"
+    "REPLACE_APP_NAME v"VERSION"by REPLACE_AUTHOR\n"
     "About.\n"
-    "Usage: VSConsoleAppTemplate\n"
+    "Usage: REPLACE_APP_NAME\n"
 };
 
 
@@ -34,7 +34,7 @@ int _tmain(int argc, tchar *argv[])
     }
     else
     {
-    	// Code
+        // Code
     }
 
 #if defined(_WIN32) && defined(_DEBUG)

@@ -1,4 +1,4 @@
-# VSConsoleAppTemplate
+# REPLACE_APP_NAME
 
 ...
 
